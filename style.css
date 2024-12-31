@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    position: relative;
+    background: linear-gradient(to right, #4caf50, #2e7d32);
+    padding: 50px 0;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about, .portfolio, .contact {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .portfolio h2, .contact h2 {
+    color: #4caf50;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social-links a {
+    font-size: 22px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #4caf50;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.center{
+    text-align: center;
+}
